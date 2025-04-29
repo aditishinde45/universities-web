@@ -1,0 +1,61 @@
+body{
+    background-image: url( background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+span{
+    cursor: pointer;
+}
+ul{
+    cursor: pointer;
+}
+.search{
+    width: 45rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.box{
+    width: 50%;
+    height: 30rem;
+    border: 5px solid white;
+   margin-top: 2rem;
+    background-color: rgb(43, 42, 42);
+    box-shadow: 0px 0px 5px black;
+    color: white;
+    overflow: scroll;
+}
+
+input{
+    width: 30rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 5px black;
+}
+
+input::placeholder{
+    font-size: 1.5rem;
+}
+button{
+    border: none;
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    background-color:aquamarine ;
+    box-shadow: 0px 0px 5px black;
+    
+}
